@@ -1,5 +1,8 @@
 @Echo Off
 Setlocal EnableDelayedExpansion
+
+:: set here the length of the password
+
 Set _RNDLength=24
 Set _Alphanumeric=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
 Set _Str=%_Alphanumeric%987654321
